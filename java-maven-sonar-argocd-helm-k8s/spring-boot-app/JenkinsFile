@@ -18,7 +18,6 @@ pipeline {
       }
     }
 
-    /* ---- PHASE 3: remove this line and the matching close below once SonarQube is ready
     stage('Static Code Analysis') {
       environment {
         SONAR_URL = "http://172.31.40.95:9000"
@@ -29,7 +28,6 @@ pipeline {
         }
       }
     }
-    ---- END PHASE 3 */
 
     /* ---- PHASE 4: remove once the docker-cred credential exists
     stage('Build and Push Docker Image') {
