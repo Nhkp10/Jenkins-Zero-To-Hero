@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: nhkp/ultimate-cicd:9
+        image: nhkp/ultimate-cicd:15
         ports:
         - containerPort: 8080
