@@ -29,7 +29,7 @@ pipeline {
       }
     }
 
-    /* ---- PHASE 4: remove once the docker-cred credential exists
+  
     stage('Build and Push Docker Image') {
       environment {
         DOCKER_IMAGE = "nhkp/ultimate-cicd:${BUILD_NUMBER}"
@@ -44,7 +44,7 @@ pipeline {
         }
       }
     }
-    ---- END PHASE 4 */
+    
 
     /* ---- PHASE 6: remove once the github credential exists
     stage('Update Deployment File') {
