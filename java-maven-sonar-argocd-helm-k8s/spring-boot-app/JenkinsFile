@@ -46,7 +46,7 @@ pipeline {
     }
     
 
-    /* ---- PHASE 6: remove once the github credential exists
+ 
     stage('Update Deployment File') {
       environment {
         GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
@@ -66,6 +66,6 @@ pipeline {
         }
       }
     }
-    ---- END PHASE 6 */
+
   }
 }
